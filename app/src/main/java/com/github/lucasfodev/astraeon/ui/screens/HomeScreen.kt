@@ -60,17 +60,6 @@ fun HomeScreen(
         Box(modifier = Modifier.fillMaxSize()) {
             TacticalBackground()
             
-            // Globo Holográfico no Fundo
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(top = 100.dp)
-                    .alpha(0.1f),
-                contentAlignment = Alignment.Center
-            ) {
-                HolographicGlobe(modifier = Modifier.size(400.dp))
-            }
-
             HUDFrame {
                 Column(
                     modifier = Modifier
